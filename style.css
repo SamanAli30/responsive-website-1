@@ -1,6 +1,32 @@
- 
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
 
-  *{
-    font-family: 'Work Sans', sans-serif;
-  }
+ * {
+     font-family: 'Work Sans', sans-serif;
+ }
+
+ header {
+     background: rgba(255, 144, 14, 0.10);
+     padding: 50px 240px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+ }
+
+ nav > ul {
+     display: flex;
+ }
+
+ nav li {
+     list-style: none;
+     margin-right: 3rem;
+     
+
+ }
+ nav li a{
+    text-decoration: none;
+ }
+
